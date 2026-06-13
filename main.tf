@@ -4,7 +4,7 @@ resource "aws_security_group" "main" {
     vpc_id = var.vpc_id
 
     egress = {
-        form_port=0
+        frrm_port=0
         to_port=0
         protocal=-1
         cidr_blocks=["0.0.0.0/0"]
