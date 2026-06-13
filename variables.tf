@@ -13,3 +13,6 @@ variable "environment" {
 variable "sg_tags" {
   default = {}
 }
+variable "sg_description" {
+  type = string
+}
